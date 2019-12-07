@@ -1,0 +1,46 @@
+{
+  "name": "jbsnorro-webpack-waiter-webpack-plugin",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublishOnly": "npm install && webpack",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "buildAndTest": "webpack && mocha dist/test.js",
+    "test": "mocha dist/test.js",
+    "rebuild": "npm install && webpack"
+  },
+  "author": "Jeroen Bos",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "4.29.6"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "5.2.1",
+    "clean-webpack-plugin": "0.1.19",
+    "reflect-metadata": "0.1.12",
+    "source-map-loader": "0.2.4",
+    "ts-loader": "6.2.1",
+    "ts-node": "7.0.1",
+    "typescript": "3.7.2",
+    "@types/webpack": "4.1.4",
+    "webpack-cli": "3.2.3",
+    "webpack-config-utils": "2.3.0",
+    "webpack-dev-server": "3.2.1",
+    "webpack-node-externals": "1.7.2"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeroenBos/JBSnorro.git"
+  },
+  "keywords": [
+    "jbsnorro"
+  ],
+  "bugs": {
+    "url": "https://github.com/JeroenBos/JBSnorro/issues"
+  },
+  "homepage": "https://github.com/JeroenBos/JBSnorro#readme"
+}
