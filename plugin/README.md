@@ -1,0 +1,1 @@
+Doesn't work because of a webpack bug. See https://github.com/stephencookdev/speed-measure-webpack-plugin/issues/44
